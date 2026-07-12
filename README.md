@@ -13,6 +13,9 @@ A full-stack blogging platform where users can write, publish, and manage their 
 - Search— filter posts by title or author on the home feed
 - Responsive UI— built with Tailwind CSS
 
+### OUTPUT:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/522a6f45-95ec-4ab6-a3a8-7aaecf4f44fd" />
+
 🛠️ Tech Stack
 
 **Frontend**
