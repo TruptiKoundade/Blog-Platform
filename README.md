@@ -68,9 +68,9 @@ Blog Platform/
 
 Create a .env file inside server/ (this is not included in the repo since it's in .gitignore — every person running it needs their own):
 
-PORT=3000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=any_random_secret_string
+-  PORT=3000
+-  MONGODB_URI=your_mongodb_connection_string
+-  JWT_SECRET=any_random_secret_string
 
 Run the server:
 -  npm run dev
