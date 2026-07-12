@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-text font-body antialiased;
+  font-feature-settings: "ss01";
+}
+
+::selection {
+  background: #2f8f6e;
+  color: #14171b;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #3fa381;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Editorial drop cap for the opening paragraph of a published post */
+.drop-cap::first-letter {
+  font-family: "Fraunces", serif;
+  font-size: 3.6rem;
+  line-height: 0.8;
+  float: left;
+  padding-right: 0.35rem;
+  padding-top: 0.35rem;
+  color: #dbbb6c;
+  font-weight: 500;
+}
+
+/* thin custom scrollbar to match the editorial-desk theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #14171b;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2f36;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
