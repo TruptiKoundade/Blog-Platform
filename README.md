@@ -14,9 +14,10 @@ A full-stack blogging platform where users can write, publish, and manage their 
 - Responsive UI— built with Tailwind CSS
 
 ### OUTPUT:
-<img width="867" height="416" alt="blogplatform" src="https://github.com/user-attachments/assets/bf2b3ac1-d0e1-4f48-a07f-debdf2fef73e" />
+<img width="1920" height="971" alt="blogplatform" src="https://github.com/user-attachments/assets/86dbde7e-eab6-45f7-83d7-96d57ba9ecab" />
 
-🛠️ Tech Stack
+
+### 🛠️ Tech Stack
 
 **Frontend**
 - React (Vite)
