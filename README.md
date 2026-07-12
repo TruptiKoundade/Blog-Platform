@@ -51,20 +51,20 @@ Blog Platform/
 
 ### Getting Started
 
-# Prerequisites
+### Prerequisites
 - Node.js (v18+)
 - MongoDB (local MongoDB or [MongoDB Atlas])
   
-# STEPS
+### STEPS
 
 ### 1. Clone the repo
-git clone https://github.com/TruptiKoundade/Blog-Platform.git
-cd "Blog Platform"
+-  git clone https://github.com/TruptiKoundade/Blog-Platform.git
+-  cd "Blog Platform"
 
 ### 2. Set up the backend
 
-cd server
-npm install
+-  cd server
+-  npm install
 
 Create a .env file inside server/ (this is not included in the repo since it's in .gitignore — every person running it needs their own):
 
@@ -73,15 +73,15 @@ MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=any_random_secret_string
 
 Run the server:
-npm run dev
+-  npm run dev
 
 Backend runs on http://localhost:3000.
 
 ### 3. Set up the frontend
 
-cd client
-npm install
-npm run dev
+-  cd client
+-  npm install
+-  npm run dev
 
 The app runs on `http://localhost:5173` 
 
