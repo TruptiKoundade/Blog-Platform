@@ -31,6 +31,8 @@ A full-stack blogging platform where users can write, publish, and manage their 
 
 ## Project Structure
 
+```
+
 Blog Platform/
 ├── server/
 │   ├── config/
@@ -58,7 +60,8 @@ Blog Platform/
     ├── index.html
     ├── package.json
     └── vite.config.js
-    
+```
+
 ### Getting Started
 
 ### Prerequisites
