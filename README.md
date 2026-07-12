@@ -29,7 +29,7 @@ A full-stack blogging platform where users can write, publish, and manage their 
 - bcrypt for password hashing
 - Multer for image uploads
 
-## 📁 Project Structure
+## Project Structure
 
 Blog Platform/
 ├── server/             
@@ -49,28 +49,37 @@ Blog Platform/
 │   └── App.jsx
 └── vite.config.js
 
-***Getting Started
+### Getting Started
 
-Prerequisites
+# Prerequisites
 - Node.js (v18+)
-- A MongoDB connection string (local MongoDB or [MongoDB Atlas](https://www.mongodb.com/atlas))
+- MongoDB (local MongoDB or [MongoDB Atlas])
+  
+# STEPS
 
 ### 1. Clone the repo
 git clone https://github.com/TruptiKoundade/Blog-Platform.git
+cd "Blog Platform"
 
 ### 2. Set up the backend
 
 cd server
 npm install
 
+Create a .env file inside server/ (this is not included in the repo since it's in .gitignore — every person running it needs their own):
+
+PORT=3000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=any_random_secret_string
+
 Run the server:
 npm run dev
 
-The API runs on `http://localhost:3000`.
+Backend runs on http://localhost:3000.
 
 ### 3. Set up the frontend
 
-cd ../client
+cd client
 npm install
 npm run dev
 
