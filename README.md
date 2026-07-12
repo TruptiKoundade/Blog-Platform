@@ -13,10 +13,6 @@ A full-stack blogging platform where users can write, publish, and manage their 
 - Search— filter posts by title or author on the home feed
 - Responsive UI— built with Tailwind CSS
 
-### OUTPUT:
-<img width="1920" height="971" alt="blogplatform" src="https://github.com/user-attachments/assets/86dbde7e-eab6-45f7-83d7-96d57ba9ecab" />
-
-
 ### 🛠️ Tech Stack
 
 **Frontend**
@@ -36,23 +32,33 @@ A full-stack blogging platform where users can write, publish, and manage their 
 ## Project Structure
 
 Blog Platform/
-├── server/             
+├── server/
+│   ├── config/
 │   ├── controllers/
+│   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
-│   ├── utils/
 │   ├── uploads/
+│   ├── utils/
+│   ├── .env
+│   ├── package.json
 │   └── server.js
-└── client/               
-├── src/
-│   ├── api/
-│   ├── context/
-│   ├── components/
-│   ├── pages/
-│   └── App.jsx
-└── vite.config.js
-
+│
+└── client/
+    ├── public/
+    ├── src/
+    │   ├── api/
+    │   ├── assets/
+    │   ├── components/
+    │   ├── context/
+    │   ├── pages/
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── index.html
+    ├── package.json
+    └── vite.config.js
+    
 ### Getting Started
 
 ### Prerequisites
@@ -92,4 +98,9 @@ The app runs on `http://localhost:5173`
 ### 4. Open the app
 
 Visit `http://localhost:5173`, create an account, and start writing.
+
+### OUTPUT:
+<img width="1920" height="971" alt="blogplatform" src="https://github.com/user-attachments/assets/86dbde7e-eab6-45f7-83d7-96d57ba9ecab" />
+
+
 
